@@ -1,0 +1,561 @@
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #AD8B73;
+}
+
+p {
+   color: #D8AE90;
+   margin: 0;
+}
+
+/* ------- CODE BARRE NAVIGATION ---------- */
+
+nav div,
+nav ul {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   list-style: none;
+}
+
+nav img {
+   width: 100%;
+   margin-top: 5px;
+}
+
+nav li {
+   margin: 10px 45px 0 45px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #AD8B73;
+   font-size: 1.1em;
+}
+
+nav a:hover {
+   border-bottom: 3px solid #AD8B73;
+}
+
+.container-img {
+   width: 70px;
+}
+
+
+
+/* --------- CODE FOOTER ---------*/
+
+footer {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0 10px 0;
+}
+
+footer p {
+   color: #AD8B73;
+   font-size: 0.7em;
+}
+
+footer span {
+   text-decoration: underline;
+}
+
+/* ------- CODE HOME.PHP ------*/
+
+#banniere img {
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   box-shadow: 0px 4px 4px #AD8B73;
+   margin-top: 5px;
+}
+
+.home_container {
+   margin: 35px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+button a {
+   text-decoration: none;
+   color: #FFFFFF;
+   font-size: 1.1em;
+}
+
+.btn {
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   border: #AD8B73;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.1em;
+   font-weight: 100;
+   padding: 7px;
+   background-color: #AD8B73;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.btn:hover {
+   border: solid #D8AE90 0;
+   background: #D8AE90;
+   background-image: -webkit-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -moz-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -ms-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -o-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -webkit-gradient(to bottom, #D8AE90, #D8AE90);
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   text-decoration: none;
+}
+
+/*-------- CODE BOOKS.PHP -------*/
+
+.form {
+   margin-top: 20px;
+}
+
+.books_form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+label {
+   color: #AD8B73;
+   margin-bottom: 5px;
+}
+
+input {
+   border: 1px solid #AD8B73;
+   margin-top: 10px;
+}
+
+.submit_btn {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.8em;
+   font-weight: 100;
+   padding: 7px;
+   background-color: #AD8B73;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   border: solid #AD8B73 0;
+   margin: 7px 5px 0 5px;
+
+}
+
+.submit_btn:hover {
+   border: solid #D8AE90 0;
+   background: #D8AE90;
+   background-image: -webkit-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -moz-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -ms-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -o-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -webkit-gradient(to bottom, #D8AE90, #D8AE90);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.read_btn {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.7em;
+   font-weight: 100;
+   padding: 5px;
+   background-color: #AD8B73;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   border: solid #AD8B73 0;
+   margin-top: 10px;
+}
+
+.read_btn:hover {
+   border: solid #D8AE90 0;
+   background: #D8AE90;
+   background-image: -webkit-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -moz-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -ms-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -o-linear-gradient(top, #D8AE90, #D8AE90);
+   background-image: -webkit-gradient(to bottom, #D8AE90, #D8AE90);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.booksContainer {
+   width: 57%;
+   text-align: justify;
+   margin: auto;
+}
+
+.div_books h2 {
+   margin-top: 30px;
+}
+
+
+/* ------- CODE BOOKS_READ.PHP --------*/
+
+h3 span {
+   font-style: italic;
+}
+
+.container_booksRead {
+   display: flex;
+}
+
+.container_booksRead aside {
+   width: fit-content;
+   margin: 20px 30px 0 20px;
+}
+
+.container_booksRead article {
+   width: 70%;
+   height: 400px;
+   overflow: auto;
+   text-align: justify;
+   margin: 20px 20px 40px 0;
+}
+
+/* --------- CODE ABOUT.PHP ------- */
+
+
+.light_img,
+.letter_img {
+   width: 10%;
+   border-radius: 70px;
+}
+
+h2 span {
+   font-style: italic;
+}
+
+.contact_form {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact_form div {
+   display: flex;
+   justify-content: space-between;
+}
+
+.img_contact {
+   margin: 15px 0 0 0;
+   display: flex;
+   justify-content: center;
+}
+
+.contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.identity_input input,
+.mail_input input,
+.message_input input {
+   margin: 0 0 20px 10px;
+}
+
+textarea {
+   border: 1px solid #AD8B73;
+
+}
+
+.contact p {
+   width: 60%;
+   text-align: justify;
+   margin-bottom: 20px;
+}
+
+/* ------- CODE POST-ABOUT.PHP ------ */
+
+.courrier_img {
+   width: 15%;
+   border-radius: 70px;
+   margin-top: 20px;
+}
+
+.post_aboutContainer p {
+   text-align: center;
+   margin: 0;
+
+}
+
+.post_aboutContainer,
+.reminderInfo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/*-------- CODE PAGE LOGIN.PHP ---------*/
+
+.containerLogin {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerLogin .errorMessage {
+   border-right: 1px solid #AD8B73;
+   padding-bottom: 40px;
+
+}
+
+.connexion_pageContainer {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+}
+
+.connexion_form,
+.createAccountForm {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.createAccountBtn {
+   text-align: center;
+}
+
+.containerLogin form, .createAccountForm {
+   width: 50%;
+}
+
+.createAccountForm h2 {
+   text-align: center;
+}
+
+
+sub {
+   font-size: 0.4em;
+}
+
+
+.connexionError {
+   color: red;
+}
+
+
+.welcomeMessage {
+   text-align: center;
+   margin-bottom: 0;
+}
+
+.welcomeMessageName {
+   text-align: center;
+   margin: 0 0 20px 0;
+}
+
+.messageName {
+   color: #754f35;
+}
+
+/* ------ CODE PAGE ACCOUNT.PHP + CONFIRMATION ----- */
+
+.accountContainer {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+sup {
+   color: red;
+}
+
+.submit_btn_account {
+   margin: 10px 0 20px 0;
+   display: flex;
+   justify-content: center;
+}
+
+#confirmation_creaCompte {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/*------- CODE AUTHORPROFILE.PHP -------*/
+
+.editProfileBtn {
+   display: flex;
+   justify-content: center;
+}
+
+/*----- EDITAUTHORPROFILE.PHP ---- */
+.hidden {
+   visibility: hidden;
+}
+
+/*------ CREATE.PHP -----*/
+
+.inputCreate {
+
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+
+}
+
+/*-------- POST_CREATE.PHP + POST_UPDATE.PHP -----*/
+
+.post_updateContainer h2,
+.reminderInfoUpdate h5 {
+   text-align: center;
+}
+
+.misePageContainer {
+   display: flex;
+   margin-left: 20px;
+}
+
+.reminderSummary {
+   width: 72%;
+   height: 120px;
+   overflow: auto;
+   text-align: justify;
+   margin: 20px 0 10px 20px;
+}
+
+.reminderText {
+   width: 70%;
+   height: 350px;
+   overflow: auto;
+   text-align: justify;
+   margin: 20px 0 40px 20px;
+}
+
+.miseEnPageContenu {
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+}
+
+/*------ DELETE.PHP ----- */
+
+.deleteForm {
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+/*--------- MEDIA QUERIES -----*/
+
+@media screen and (max-width: 920px) {
+
+   nav {
+      margin: 5px 0;
+      display: flex;
+      justify-content: flex-end;
+      background: url('images/separateur.png') repeat-x bottom;
+      padding-bottom: 20px;
+
+   }
+
+   nav div,
+   nav ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+   }
+
+   nav img {
+      display: none;
+   }
+
+   .home_container {
+      margin: 35px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+   .home_container p {
+      text-align: justify;
+   }
+
+   .home_container h3 {
+      text-align: center;
+   }
+
+   .container_booksRead {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .container_booksRead article {
+      width: 80%;
+      height: 400px;
+      overflow: auto;
+      text-align: justify;
+      margin: 20px 0 40px 0;
+   }
+
+   .containerLogin {
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+       padding-bottom: 20px;
+   }
+
+   .containerLogin .errorMessage {
+      border-right: 0;
+      border-bottom: 1px solid #AD8B73;;
+      padding-bottom: 40px;
+   }
+
+   .reminderInfoUpdate {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .misePageContainer {
+      display: flex;
+      margin-left: 20px;
+      flex-direction: column;
+      align-items: center;
+   }
+
+
+}
